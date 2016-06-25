@@ -1,0 +1,42 @@
+doctype 5
+html(lang="en")
+
+  include head 
+
+  body.index
+    
+    include header
+
+    section.content
+      
+      section.about.section
+        .content-wrapper
+          h1 Hi, my name is Maryna.
+          p.name-spelling [məˈrēnə]
+          div.intro
+            p I am a designer, thinker (sometimes, over-thinker), traveller, child of post-Soviet Ukraine and an inhabitant of the world.
+            p Through my travels I were able to see and appreciate other cultures, find commonalities and differences, analyze and cherish them. I see the world as One and am generally curious about traditions, culture, food, political and historical background.
+            p I believe in good, and this love and compassion is what I strive to bring to my professional life. Finding an interesting angle to look at the problem, finding a way to express idea in the most authentic way are general rules that I follow in my practice.
+          p
+            a(href="mailto:hello@marynaaleksandrova.info").hello-link Say hello
+            |.
+
+      section.projects.section.content-wrapper
+        h1.section-title Projects
+
+        div.cyclic.third-large
+          include proj-cyclic
+
+        div.lifelines
+          include proj-lifelines
+
+        div.ctfo
+          include proj-ctfo
+
+        div.goostame
+          include proj-goostame
+
+        div.hashobject
+          include proj-hashobject
+
+      include footer-contact
